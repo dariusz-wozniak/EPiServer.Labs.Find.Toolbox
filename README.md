@@ -1,5 +1,7 @@
 # 🍴 Forked EPiServer.Labs.Find.Toolbox information
 
+[![NuGet](https://buildstats.info/nuget/dariusz-wozniak.EPiServer.Labs.Find.Toolbox)](https://www.nuget.org/packages/dariusz-wozniak.EPiServer.Labs.Find.Toolbox)
+
 This is a fork of the [EPiServer.Labs.Find.Toolbox](https://github.com/episerver/EPiServer.Labs.Find.Toolbox) library.
 
 The purpose of the fork is to provide a Nuget.org package for the library along with possible version updates and improvements.
