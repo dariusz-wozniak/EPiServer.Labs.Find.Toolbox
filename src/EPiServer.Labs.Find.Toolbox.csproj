@@ -34,7 +34,4 @@
     <PackageReference Include="EPiServer.Find.Cms" Version="14.2.4" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
 </Project>
