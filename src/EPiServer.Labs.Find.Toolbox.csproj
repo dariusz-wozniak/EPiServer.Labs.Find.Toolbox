@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
+    <Version>2.0.0</Version>
+    <Description>🍴 Fork of the EPiServer.Labs.Find.Toolbox</Description>
+    <PackageTags>episerver, find</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <WarningLevel>2</WarningLevel>
@@ -17,21 +21,17 @@
     <None Remove="modules\**" />
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Remove="C:\Users\Daniel\.nuget\packages\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\0.4.355802\build\\WebTypeReplacements.typemap" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="app.config" />
-    <None Remove="C:\Users\Daniel\.nuget\packages\episerver.find.cms\14.2.4\contentFiles\any\any\modules\_protected\Find\Find.zip" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Runtime.Remoting" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="EPiServer.Find.Cms" Version="14.2.4" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />    
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="EPiServer.Find.Cms" Version="14.2.4" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 </Project>
